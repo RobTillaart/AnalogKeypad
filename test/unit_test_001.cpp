@@ -22,7 +22,7 @@
 #include <ArduinoUnitTests.h>
 
 #include "Arduino.h"
-#include "AnalogKeyPad.h"
+#include "AnalogKeypad.h"
 
 
 unittest_setup()
@@ -38,6 +38,23 @@ unittest(test_constructor)
   AnalogKeypad AKP(0);
   int press = AKP.pressed();
   assertEqual(0, press);
+}
+
+unittest(test_polling)
+{
+  AnalogKeypad AKP(0);
+  int key = AKP.read();
+  assertEqual(0, key);
+}
+
+unittest(test_event)
+{
+  AnalogKeypad AKP(0);
+  int event = AKP.event();
+  assertEqual(0, event);
+
+  int key = AKP.key();
+  assertEqual(0, key);
 }
 
 unittest_main()

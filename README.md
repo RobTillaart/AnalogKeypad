@@ -22,7 +22,8 @@ the **MAGIC NUMBERS** in the function **rawRead()**.
 
 ### Constructor
 
-- **AnalogKeypad(const uint8_t pin)** constructor, pin is typical A0 etc
+- **AnalogKeypad(const uint8_t pin, const uint8_t bits = 10)** constructor, pin is typical A0 etc
+Bits has a default of 10, but need to be set to match the platform.
 
 
 ### polling interface

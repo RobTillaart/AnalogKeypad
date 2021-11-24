@@ -1,6 +1,7 @@
 
 [![Arduino CI](https://github.com/RobTillaart/AnalogKeypad/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci)
-
+[![Arduino-lint](https://github.com/RobTillaart/AnalogKeypad/actions/workflows/arduino-lint.yml/badge.svg)](https://github.com/RobTillaart/AnalogKeypad/actions/workflows/arduino-lint.yml)
+[![JSON check](https://github.com/RobTillaart/AnalogKeypad/actions/workflows/jsoncheck.yml/badge.svg)](https://github.com/RobTillaart/AnalogKeypad/actions/workflows/jsoncheck.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/RobTillaart/AnalogKeypad/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/RobTillaart/AnalogKeypad.svg?maxAge=3600)](https://github.com/RobTillaart/AnalogKeypad/releases)
 
@@ -60,6 +61,7 @@ It returns the key pressed first, so multiple key presses simultaniously
 are less likely to disturbe your program.
 
 See Examples
+
 
 ## Future
 

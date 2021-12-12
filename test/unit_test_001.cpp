@@ -36,7 +36,7 @@ unittest_teardown()
 
 unittest(test_constants)
 {
-  fprintf(stderr, "ANALOGKEYPAD_LIB_VERSION: %s\n" (char *) ANALOGKEYPAD_LIB_VERSION);
+  fprintf(stderr, "ANALOGKEYPAD_LIB_VERSION: %s\n", (char *) ANALOGKEYPAD_LIB_VERSION);
 
   assertEqual(0x00, NOKEY   );
   assertEqual(0x80, PRESSED );
